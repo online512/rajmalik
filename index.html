@@ -15,13 +15,254 @@
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
     
-    fbq('init', '1171566127368967'); 
+    fbq('init', '2003597157239753'); 
     fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1171566127368967&ev=PageView&noscript=1"/>
+        src="https://www.facebook.com/tr?id=2003597157239753&ev=PageView&noscript=1"/>
     </noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0f1b2d;
+display:flex;
+justify-content:center;
+padding:20px;
+}
+
+.container{
+width:360px;
+background:#1c2c44;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.header{
+background:linear-gradient(135deg,#0fb9b1,#1e90ff);
+padding:30px 20px;
+text-align:center;
+color:white;
+}
+
+.profile{
+width:90px;
+height:90px;
+border-radius:50%;
+border:4px solid white;
+margin:auto;
+overflow:hidden;
+}
+
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.header h1{
+font-size:26px;
+margin:15px 0;
+}
+
+.badges{
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.badge{
+padding:6px 12px;
+border-radius:20px;
+font-size:13px;
+}
+
+.gold{background:#f4c542;color:black;}
+.green{background:#00d26a;color:white;}
+
+.members{
+margin-top:10px;
+font-size:14px;
+opacity:0.9;
+}
+
+.stats{
+display:flex;
+gap:10px;
+padding:15px;
+}
+
+.box{
+flex:1;
+padding:20px;
+border-radius:15px;
+color:white;
+text-align:center;
+}
+
+.win{
+background:#1abc9c;
+}
+
+.rating{
+background:#f39c12;
+}
+
+.box h2{
+margin:0;
+font-size:32px;
+}
+
+/* TELEGRAM BUTTON WITH GLOW + PULSE */
+
+.telegram{
+margin:15px;
+background:#1da1f2;
+padding:15px;
+text-align:center;
+border-radius:12px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+animation:pulseGlow 1.8s infinite;
+transition:transform 0.2s;
+}
+
+.telegram:hover{
+transform:scale(1.05);
+}
+
+/* POP IN / OUT + GLOW */
+
+@keyframes pulseGlow{
+
+0%{
+transform:scale(1);
+box-shadow:0 0 5px #1da1f2,0 0 10px #1da1f2;
+}
+
+50%{
+transform:scale(1.1);
+box-shadow:0 0 20px #1da1f2,0 0 40px #1da1f2;
+}
+
+100%{
+transform:scale(1);
+box-shadow:0 0 5px #1da1f2,0 0 10px #1da1f2;
+}
+
+}
+
+.features{
+display:flex;
+justify-content:space-around;
+padding:20px;
+}
+
+.feature{
+text-align:center;
+color:white;
+font-size:14px;
+}
+
+.feature i{
+font-size:26px;
+padding:15px;
+border-radius:10px;
+display:block;
+margin-bottom:8px;
+}
+
+.f1{background:#2ecc71;}
+.f2{background:#3498db;}
+.f3{background:#2980b9;}
+.f4{background:#f1c40f;}
+
+.footer{
+text-align:center;
+color:#aaa;
+padding:15px;
+font-size:13px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<div class="profile">
+<img src="https://raw.githubusercontent.com/online512/raani/af4efadbee764f3e8f95723c338242435ad0f01f/photo_2026-03-16_22-07-44.jpg" alt="Logo">
+</div>
+
+<h1>RAJ MALIK</h1> 
+
+<div class="badges">
+<div class="badge gold">🏆 Premium Tips</div>
+<div class="badge green">🔴 Live Now</div>
+</div>
+
+<div class="members">👥 100k+ Active Members</div>
+
+</div>
+
+<div class="stats">
+
+<div class="box win">
+<h2>96%</h2>
+<p>WIN RATE</p>
+</div>
+
+<div class="box rating">
+<h2>4.1 ⭐</h2>
+<p>RATING</p>
+</div>
+
+</div>
+
+<a href="https://t.me/+JNfH8Bf11PQ1MmM1" target="_blank" style="text-decoration:none;">
+<div class="telegram">
+<i class="fab fa-telegram"></i> Join Telegram Channel
+</div>
+</a>
+
+<div class="features">
+
+<div class="feature">
+<i class="fas fa-check f1"></i>
+Verified
+</div>
+
+<div class="feature">
+<i class="fas fa-lock f2"></i>
+Secure
+</div>
+
+<div class="feature">
+<i class="fas fa-chart-line f3"></i>
+Profitable
+</div>
+
+<div class="feature">
+<i class="fas fa-star f4"></i>
+Top Rated
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 RAJ MALIK - All rights reserved.
+</div>
+
+</div>
+
+</body>
+</html>
